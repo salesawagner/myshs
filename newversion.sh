@@ -18,5 +18,5 @@ agvtool new-marketing-version $versionNumber
 
 # Git push
 git add --all
-git commit -m \"new version $versionNumber\"
+git commit -a -m \"new version $versionNumber\"
 git status
